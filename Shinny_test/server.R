@@ -19,7 +19,7 @@ shinyServer(function(input, output) {
         bins <- seq(min(x), max(x), length.out = input$bins + 1)
 
         # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'lightblue', border = 'white', main="Eruption Histogram", xlab="Number of eruption per day")
+        hist(x, breaks = bins, col = 'lightblue', border = 'white', main="Eruption Histogram", xlab="Number of eruptions per day")
 
     })
 
